@@ -5,4 +5,4 @@ async function menuRoutes(fastify, options) {
     reply.send(rows);
   });
 }
-export default menuRoutes;
+module.exports = menuRoutes;

@@ -30,4 +30,4 @@ async function orderRoutes(fastify, options) {
     reply.send(orders);
   });
 }
-export default orderRoutes;
+module.exports = orderRoutes;
